@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .mainconter{
+    display: flex;
+    justify-content: center;
+    
+    /* width: 100vw;
+    height: 100vh; */
+    
+  }
+  .bg-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #b310a5;
+    padding: 2rem;
+    margin: 10rem;
+    border-radius: 15px;
+    width: 300px;
+    height: 270px;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: end;
+  }
+  
+  p{
+    color: #000000;
+    margin-right:0.5rem;
+    font-weight: bold;
+  }
+  
+  .content-and-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  h1{
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-top: 10px; */
+    /* padding: 15px; */
+  }
+  
+  button{
+    background-color: #ed5fad;
+    color: #000000;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    width: fit-content;
+    border-width: 0rem;
+    font-weight: bold;
+    margin-bottom: 10rem;
+  }
+  
+  button:hover{
+    background-color: #000000;
+    color: white;
+    text-shadow: 2px 2px 6px  white;
+   
+  }
+  
+  .footer{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: beige;
+    display: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+  }
+  .first-color{
+    background-color: #7710b3;
+    width: 60%;
+    border: 0px solid;
+    height: 10px;
+  }
+  
+  .second-color{
+    background-color: #000000;
+    width: 25%;
+    border: 0px solid;
+    height: 10px;
+  }
+  
+  
+  .third-color{
+    background-color: #87ED5F;
+    width: 15%;
+    border: 0px solid;
+    height: 10px;
+  }
+  
+  
+  img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+   
+    margin: 5px;
+  }
+  
+  
+  .bg-container:hover .footer{
+    display: block;
+    display: flex;
+  
+  }
+  
+  
